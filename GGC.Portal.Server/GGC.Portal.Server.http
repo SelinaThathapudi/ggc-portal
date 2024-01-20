@@ -1,0 +1,6 @@
+@GGC.Portal.Server_HostAddress = http://localhost:5002
+
+GET {{GGC.Portal.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
