@@ -1,4 +1,4 @@
-<div style="min-height: 80px;height: 8vh;">
+<div style="min-height: 80px;height: 12vh;">
     <dx-toolbar>
         <dxi-item location="center" widget="dxButton" locateInMenu="never">
             <div *dxTemplate>
@@ -6,4 +6,8 @@
             </div>
         </dxi-item>
     </dx-toolbar>
+    <dx-menu #menu [dataSource]="products" displayExpr="name" class="header-nav"
+        [showFirstSubmenuMode]="{name:'onClick',delay:{show: 0,hide: 500 }}" orientation="horizontal"
+        [hideSubmenuOnMouseLeave]="false" (onItemClick)="itemClick($event)">
+    </dx-menu>
 </div>

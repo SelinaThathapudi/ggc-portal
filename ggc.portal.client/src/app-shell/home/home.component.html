@@ -1,20 +1,124 @@
-<!-- <div style="background-color: #fff; color:#616161 ; height: 600px;">
-    <div class="flex-container">
-        <div style="flex-grow: 3">
-            <img src="../../assets/images/2023/jospeh_geddam_desi_christmas_1.jpg" width="600" height="500">
-        </div>
-        <div style="flex-grow: 7">
-            <h2 style="font-family: 'Barlow Condensed', sans-serif;"> Join us in person or online!</h2>
-            <div style="font-family: 'Montserrat', sans-serif;line-height:30px; word-wrap: break-word;">
+<dx-responsive-box>
+    <dxi-row [ratio]="1"></dxi-row>
+    <dxi-row [ratio]="1"></dxi-row>
+    <dxi-row [ratio]="1"></dxi-row>
+    <dxi-row [ratio]="1"></dxi-row>
+    <dxi-row [ratio]="1" screen="xs sm"></dxi-row>
+    <dxi-row [ratio]="1" screen="xs sm"></dxi-row>
+    <dxi-row [ratio]="1" screen="xs sm"></dxi-row>
+    <dxi-row [ratio]="1" screen="xs sm"></dxi-row>
+    <dxi-col [ratio]="1"></dxi-col>
+    <dxi-col [ratio]="1"></dxi-col>
+    <dxi-col [ratio]="1"></dxi-col>
+
+    <dxi-item class="content">
+        <dxi-location screen="md lg" [row]="0" [col]="0"></dxi-location>
+        <dxi-location screen="xs sm" [row]="0" [col]="0" [colspan]="3"></dxi-location>
+        <img src="../../assets/images/2023/jospeh_geddam_desi_christmas_1.jpg">
+    </dxi-item>
+
+    <dxi-item class="right-side-bar">
+        <dxi-location screen="md lg" [row]="0" [col]="1" [colspan]="2"></dxi-location>
+        <dxi-location screen="xs sm" [row]="1" [col]="0" [colspan]="3"></dxi-location>
+        <div class="dx-theme-accent-as-text-color"
+            style="font-family: 'Barlow Condensed', sans-serif; font-size: 48px;padding: 10px 20px 10px 0;">JOIN US IN
+            PERSON OR ONLINE</div>
+        <div
+            style="font-family: 'Montserrat', sans-serif; font-size: large;padding: 10px 50px 50px 50px;text-align: justify;">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum</div>
+        <div class="dx-theme-accent-as-text-color"
+            style="font-family: 'Barlow Condensed', sans-serif; font-size: 30px;padding:10px;">Sundays, 11 am at 111
+            abcde St, Place, TX</div>
+        <div class="dx-theme-accent-as-text-color"
+            style="font-family: 'Barlow Condensed', sans-serif; font-size: 30px;padding:10px;">or Online</div>
+    </dxi-item>
+
+    <dxi-item class="content">
+        <dxi-location screen="md lg" [row]="1" [col]="0"></dxi-location>
+        <dxi-location screen="xs sm" [row]="2" [col]="0" [colspan]="3"></dxi-location>
+        <img src="../../assets/images/2023/christmas_1.jpg" height="350">
+    </dxi-item>
+
+    <dxi-item class="right-side-bar">
+        <dxi-location screen="md lg" [row]="1" [col]="1" [colspan]="2"></dxi-location>
+        <dxi-location screen="xs sm" [row]="3" [col]="0" [colspan]="3"></dxi-location>
+        <div style="padding:10px;">
+            <div class="dx-theme-accent-as-text-color"
+                style="font-family: 'Barlow Condensed', sans-serif; font-size: 48px;padding: 10px 20px 10px 0;">Events
+            </div>
+            <div
+                style="font-family: 'Montserrat', sans-serif; font-size: large;padding: 10px 50px 50px 50px;text-align: justify;">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
-                into
-                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                release of
-                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                Aldus PageMaker including versions of Lorem Ipsum.
-            </div>
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</div>
+            <div class="dx-theme-accent-as-text-color"
+                style="font-family: 'Barlow Condensed', sans-serif; font-size: 30px;padding:10px;">Click here to view
+                upcoming events</div>
         </div>
-    </div>
-</div> -->
+    </dxi-item>
+
+    <dxi-item class="content">
+        <dxi-location screen="md lg" [row]="2" [col]="0"></dxi-location>
+        <dxi-location screen="xs sm" [row]="4" [col]="0" [colspan]="3"></dxi-location>
+        <img src="../../assets/images/stock/kids_ministry.jpg" height="450">
+    </dxi-item>
+
+    <dxi-item class="right-side-bar">
+        <dxi-location screen="md lg" [row]="2" [col]="1" [colspan]="2"></dxi-location>
+        <dxi-location screen="xs sm" [row]="5" [col]="0" [colspan]="3"></dxi-location>
+        <div style="padding:10px;">
+            <div class="dx-theme-accent-as-text-color"
+                style="font-family: 'Barlow Condensed', sans-serif; font-size: 48px;padding: 10px 20px 10px 0;">Kids
+                Ministry
+            </div>
+            <div
+                style="font-family: 'Montserrat', sans-serif; font-size: large;padding: 10px 50px 50px 50px;text-align: justify;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</div>
+            <div class="dx-theme-accent-as-text-color"
+                style="font-family: 'Barlow Condensed', sans-serif; font-size: 30px;padding:10px;">Click here to
+                learn more</div>
+        </div>
+    </dxi-item>
+
+
+    <dxi-item class="content">
+        <dxi-location screen="md lg" [row]="3" [col]="0"></dxi-location>
+        <dxi-location screen="xs sm" [row]="6" [col]="0" [colspan]="3"></dxi-location>
+        <img src="../../assets/images/stock/youth_ministry.jpg" height="450">
+    </dxi-item>
+
+    <dxi-item class="right-side-bar">
+        <dxi-location screen="md lg" [row]="3" [col]="1" [colspan]="2"></dxi-location>
+        <dxi-location screen="xs sm" [row]="7" [col]="0" [colspan]="3"></dxi-location>
+        <div style="padding:10px;">
+            <div class="dx-theme-accent-as-text-color"
+                style="font-family: 'Barlow Condensed', sans-serif; font-size: 48px;padding: 10px 20px 10px 0;">Youth
+                Ministry
+            </div>
+            <div
+                style="font-family: 'Montserrat', sans-serif; font-size: large;padding: 10px 50px 50px 50px;text-align: justify;">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum</div>
+            <div class="dx-theme-accent-as-text-color"
+                style="font-family: 'Barlow Condensed', sans-serif; font-size: 30px;padding:10px;">Click here to
+                learn more</div>
+        </div>
+    </dxi-item>
+</dx-responsive-box>

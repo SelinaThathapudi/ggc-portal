@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
 
 .header-title {
-    font-size: 10vmin;
+    font-size: 6vmin;
     font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.header-nav {
+    padding: 1vmin;
+    padding-top: 2vmin;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
 }
