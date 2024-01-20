@@ -2,7 +2,8 @@
 
 #responsiveBox p {
     font-size: 16px;
-    padding-top: 10px;
+    padding: 10px;
+    margin: 10px;
     text-align: center;
     height: max-content;
 }
@@ -10,3 +11,6 @@
 .content {
     height: 500px;
 }
+.line-1 {
+    height: 0.5px;
+  }
